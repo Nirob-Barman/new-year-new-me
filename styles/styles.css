@@ -2,9 +2,182 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
+section {
+    margin-bottom: 30px;
+}
+
+/* banner */
 .header {
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
     padding: 216px 230px 364px 845px;
     text-align: right;
+    background-size: contain;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #151414;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 12px;
+    color: #444343;
+    padding: 25px 0;
+}
+
+.banner-button {
+    background: #F15B22;
+    border-radius: 5px;
+    width: 120px;
+    height: 45px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+/* My failures of previous year */
+
+.failures {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 0 200px;
+}
+
+.failure-mode {
+    background-image: url('../images/person.png');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* padding: 939px 230px 0 100px; */
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: #151414;
+}
+
+.failure-sub-title {
+    font-weight: 700;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+/* my plans */
+.my-plans {
+    text-align: center;
+    margin: 100px 100px;
+    padding: auto 150px;
+}
+
+.my-plans-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.plans-info-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+
+/* Always keep a positive mindset*/
+
+.mindset {
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 130px 400px;
+    border-radius: 10px;
+}
+
+.positive-mindset {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.mindset-button {
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #F15B22;
+    border: 0px solid #F15B22;
+}
+
+/* footer */
+.contract {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    background: #151414;
+    padding: 130px 200px;
+    color: #F8F8F8;
+}
+
+.contract-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.contract-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contract a {
+    text-decoration: none;
+}
+.contract-subscribe {
+    font-weight: 600;
+    font-size: 25px;
+    height: 40px;
+}
+
+.contract input {
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background: #151414;
+    color: #F3F3F3;
+    height: 40px;
+}
+
+.subscribe-button {
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 120px;
+    height: 50px;
 }
