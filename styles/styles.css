@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header {
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    padding: 216px 230px 364px 845px;
+    text-align: right;
+}
