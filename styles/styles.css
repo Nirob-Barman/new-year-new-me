@@ -210,13 +210,23 @@
 .field-intro {
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
+
 .field input {
     margin-bottom: 24px;
     border: 0;
     width: 100%;
     padding: 18px 30px;
     border: 1px solid red;
+}
+
+.field button {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+    border: 1px solid #18A0FB;
 }
 
 .btn-last {
