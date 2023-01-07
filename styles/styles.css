@@ -189,18 +189,18 @@
     margin-top: 30px;
     margin-bottom: 15px;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 40px;
     color: #000000;
 }
 .free-title {
     font-weight: 400;
-    font-size: 21px;
+    font-size: 16px;
     color: rgba(0, 0, 0, 0.8);
     margin-bottom: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 .field {
-    /* margin-left: 350px;
-    margin-right: 350px; */
     width: 30%;
     margin: 0 auto;
     text-align: left;
