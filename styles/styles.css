@@ -36,7 +36,6 @@
 }
 
 /* My failures of previous year */
-
 .failures {
     display: flex;
     gap: 50px;
@@ -66,7 +65,6 @@
     color: #444343;
     list-style-type: '✔️';
 }
-
 
 /* my plans */
 .my-plans {
@@ -99,9 +97,7 @@
     color: #737272;
 }
 
-
 /* Always keep a positive mindset*/
-
 .mindset {
     background-image: url('../images/watch.png'), url(../images/gradient2.png);
     background-repeat: no-repeat;
@@ -183,4 +179,53 @@
     border-radius: 8px;
     width: 120px;
     height: 50px;
+}
+
+/* free-trial */
+.free-trial {
+    text-align: center;
+}
+.free-intro {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+}
+.free-title {
+    font-weight: 400;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 30px;
+}
+.field {
+    /* margin-left: 350px;
+    margin-right: 350px; */
+    width: 30%;
+    margin: 0 auto;
+    text-align: left;
+    padding: auto auto;
+    margin-bottom: 50px;
+}
+.field-intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.field input,button {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+    border: 1px solid red;
+}
+
+.btn-last {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    background: #18A0FB;
+    border-radius: 5px;
 }
