@@ -3,10 +3,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-section {
-    margin-bottom: 30px;
-}
-
 /* banner */
 .header {
     background-image: url('../images/banner/banner1.png');
@@ -156,7 +152,6 @@ section {
     width: 300px;
 }
 
-
 .contract a {
     text-decoration: none;
 }
@@ -165,7 +160,7 @@ section {
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
     height: 40px;
 }
 
