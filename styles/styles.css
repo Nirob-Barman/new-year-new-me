@@ -134,7 +134,7 @@ section {
 /* footer */
 .contract {
     display: flex;
-    gap: 100px;
+    gap: 300px;
     justify-content: space-between;
     background: #151414;
     padding: 130px 200px;
@@ -144,19 +144,23 @@ section {
 .contract-title {
     font-weight: 700;
     font-size: 45px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .contract-description {
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 10px;
+    width: 300px;
 }
+
 
 .contract a {
     text-decoration: none;
 }
 .contract-subscribe {
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-weight: 600;
     font-size: 25px;
     height: 40px;
@@ -165,11 +169,12 @@ section {
 .contract input {
     border: 1px solid #FFFFFF;
     border-radius: 8px;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 10px;
     background: #151414;
     color: #F3F3F3;
     height: 40px;
+    width: 80%;
 }
 
 .subscribe-button {
