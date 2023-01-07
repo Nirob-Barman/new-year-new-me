@@ -43,29 +43,29 @@ section {
 
 .failures {
     display: flex;
-    gap: 100px;
+    gap: 50px;
     justify-content: center;
-    /* align-items: center; */
-    margin: 0 200px;
-}
-
-.failure-mode {
-    background-image: url('../images/person.png');
-    background-repeat: no-repeat;
-    /* background-position: center; */
-    /* background-size: cover; */
-    /* padding: 939px 230px 0 100px; */
+    align-items: center;
+    padding: 130px 150px;
 }
 
 .failure-title {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 5px;
     color: #151414;
 }
 
 .failure-sub-title {
     font-weight: 700;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.failure-list {
     font-weight: 400;
     font-size: 16px;
     color: #444343;
@@ -158,6 +158,7 @@ section {
 .contract a {
     text-decoration: none;
 }
+
 .contract-subscribe {
     margin-top: 10px;
     margin-bottom: 10px;
