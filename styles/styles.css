@@ -1,5 +1,10 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -35,7 +40,7 @@
     color: #FFFFFF;
 }
 
-/* My failures of previous year */
+/* My failures of the previous year */
 .failures {
     display: flex;
     gap: 50px;
@@ -69,17 +74,20 @@
     list-style-type: '✔️';
 }
 
-/* my plans */
+/* My Plans */
 .my-plans {
     text-align: center;
     margin: 100px 100px;
-    padding: auto 150px;
+    /* padding: auto 150px; */
+    /* Adjusted padding for better responsiveness */
+    padding: 0 50px; 
 }
 
 .my-plans-title {
     font-weight: 700;
     font-size: 40px;
     color: #151414;
+    margin-bottom: 30px;
 }
 
 .plans-info-container {
@@ -88,27 +96,40 @@
     margin-top: 50px;
 }
 
+.plan-info {
+    /* Centered text within each plan-info */
+    text-align: center;
+}
 
 .plan-title {
     font-weight: 700;
     font-size: 30px;
     color: #151414;
+    /* Added margin for better separation */
+    margin-top: 15px;
 }
 
 .plan-description {
     font-weight: 500;
-    font-size: 25px;
+    /* font-size: 25px; */
+    /* Adjusted font size for better readability */
+    font-size: 18px;
     color: #737272;
 }
 
-/* Always keep a positive mindset*/
+/* Always keep a positive mindset */
 .mindset {
     background-image: url('../images/watch.png'), url(../images/gradient2.png);
     background-repeat: no-repeat;
     background-blend-mode: overlay;
     background-position: center center;
-    padding: 130px 400px;
+    /* padding: 130px 400px; */
     border-radius: 10px;
+    
+    /* Adjusted padding for better responsiveness */
+    padding: 130px 20px;
+    /* Centering text */
+    text-align: center;
 }
 
 .positive-mindset {
@@ -126,30 +147,116 @@
     font-weight: 600;
     font-size: 15px;
     color: #F15B22;
-    border: 0px solid #F15B22;
+    /* border: 0px solid #F15B22; */
+
+    /* Removed border property for consistency */
+    border: 0;
 }
 
-/* footer */
+/* Free Trial */
+.free-trial {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.free-intro {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+}
+
+.free-title {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.field {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.field-intro {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.field input {
+    margin-bottom: 24px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+}
+
+.field button {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 15px;
+    background: #18A0FB;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.btn-last {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    background: #18A0FB;
+    border-radius: 5px;
+}
+
+/* Footer */
 .contract {
     display: flex;
-    gap: 300px;
+    /* gap: 300px; */
+    /* Adjusted gap for better responsiveness */
+    gap: 20px;
     justify-content: space-between;
     background: #151414;
-    padding: 130px 200px;
+    /* padding: 130px 200px; */
+
+    /* Adjusted padding for better responsiveness */
+    padding: 50px 20px;
     color: #F8F8F8;
 }
 
 .contract-title {
     font-weight: 700;
-    font-size: 45px;
-    margin-bottom: 20px;
+    /* font-size: 45px; */
+    /* margin-bottom: 20px; */
+
+    /* Adjusted font size for better responsiveness */
+    font-size: 30px;
+    /* Adjusted margin for better separation */
+    margin-bottom: 10px;
 }
 
 .contract-description {
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 10px;
-    width: 300px;
+    /* width: 300px; */
+    
+    /* Adjusted width for better responsiveness */
+    width: 100%;
 }
 
 .contract a {
@@ -172,7 +279,10 @@
     background: #151414;
     color: #F3F3F3;
     height: 40px;
-    width: 80%;
+    /* width: 80%; */
+
+    /* Adjusted width for better responsiveness */
+    width: 100%;
 }
 
 .subscribe-button {
@@ -181,65 +291,8 @@
     color: #F15B22;
     background: #FFFFFF;
     border-radius: 8px;
-    width: 120px;
+    /* width: 120px; */
+    /* Adjusted width for better responsiveness */
+    width: 100%;
     height: 50px;
-}
-
-/* free-trial */
-.free-trial {
-    text-align: center;
-}
-.free-intro {
-    margin-top: 30px;
-    margin-bottom: 15px;
-    font-weight: 400;
-    font-size: 40px;
-    color: #000000;
-}
-.free-title {
-    font-weight: 400;
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.8);
-    margin-bottom: 30px;
-    margin-left: 400px;
-    margin-right: 400px;
-}
-.field {
-    width: 30%;
-    margin: 0 auto;
-    text-align: left;
-    padding: auto auto;
-    margin-bottom: 50px;
-}
-.field-intro {
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-
-.field input {
-    margin-bottom: 24px;
-    border: 0;
-    width: 100%;
-    padding: 18px 30px;
-    border: 1px solid red;
-}
-
-.field button {
-    margin-bottom: 24px;
-    border: 0;
-    width: 100%;
-    padding: 18px 30px;
-    border: 1px solid #18A0FB;
-}
-
-.btn-last {
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 20px;
-    border: 0;
-    padding: 18px 35px;
-    height: 64px;
-    background: #18A0FB;
-    border-radius: 5px;
 }
